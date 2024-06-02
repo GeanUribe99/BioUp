@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             BioUpTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Androidsitooo",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
