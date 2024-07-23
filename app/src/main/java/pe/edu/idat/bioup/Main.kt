@@ -56,7 +56,7 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun EjemploNavigationDrawer() {
+fun NavigationDrawer() {
     val opciones = listOf("Q&F", "Contacto Soporte", "T&C", "Cerrar sesion")
     val iconos = listOf(Icons.Filled.Face, Icons.Filled.Build, Icons.Filled.Info, Icons.Filled.ExitToApp)
     var opcionSeleccionada by remember {
