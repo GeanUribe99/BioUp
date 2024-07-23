@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
             BioUpTheme {
                 loginScreen()
                 //NavigationDrawer()
+                //HistorialMedico()
             }
         }
     }
