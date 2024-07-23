@@ -68,7 +68,9 @@ fun loginScreen(){
 @Composable
 fun formularioLogin(modifier: Modifier){
 
-    Column(modifier = modifier.padding(start = 5.dp, end = 5.dp).padding(top = 70.dp)) {
+    Column(modifier = modifier
+        .padding(start = 5.dp, end = 5.dp)
+        .padding(top = 70.dp)) {
         imagenLogo(modifier = Modifier.align(Alignment.CenterHorizontally))
         Spacer(modifier = Modifier.size(30.dp))
         txtusuario()

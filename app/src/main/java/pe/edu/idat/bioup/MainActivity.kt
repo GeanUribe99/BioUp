@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import pe.edu.idat.bioup.auth.view.loginScreen
+import pe.edu.idat.bioup.informationUser.mostrarInformation
 import pe.edu.idat.bioup.ui.theme.BioUpTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,7 +21,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BioUpTheme {
-                loginScreen()
+                mostrarInformation()
+                //loginScreen()
                 //NavigationDrawer()
                 //HistorialMedico()
             }
