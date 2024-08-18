@@ -42,7 +42,6 @@ import pe.edu.idat.bioup.auth.view.cabeceraLogin
 import pe.edu.idat.bioup.auth.view.formularioLogin
 import pe.edu.idat.bioup.auth.view.imagenLogo
 import pe.edu.idat.bioup.auth.view.loginButton
-import pe.edu.idat.bioup.auth.view.loginGoogle
 import pe.edu.idat.bioup.auth.view.registroLogin
 import pe.edu.idat.bioup.auth.view.txtpassword
 import pe.edu.idat.bioup.auth.view.txtusuario

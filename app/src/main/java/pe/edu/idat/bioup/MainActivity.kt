@@ -33,22 +33,25 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BioUpTheme {
-                val navigation = rememberNavController()
-                NavHost(navController = navigation, startDestination = Ruta.loginScreen.path,
-                    builder = {
-                        composable(Ruta.loginScreen.path){
-                            loginScreen(loginViewModel, navigation)
-                        }
-                        composable(Ruta.registroScreen.path){
-                            registroScreen(registroViewModel, navigation)
-                        }
-                    })
+             val navigation = rememberNavController()
+            NavHost(navController = navigation, startDestination = Ruta.loginScreen.path,
+            builder = {
+               composable(Ruta.loginScreen.path){
+                   loginScreen(loginViewModel, navigation)
+                }
+                  composable(Ruta.registroScreen.path){
+                                   registroScreen(registroViewModel, navigation)
+                 }
+
+
+             })
                 //val navigation = rememberNavController()
                 //mostrarInformation()
                 //loginScreen()
                 //NavigationDrawer()
                 //HistorialMedico()
-            }
+
+        }
         }
     }
 }

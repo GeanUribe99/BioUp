@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.org.jetbrains.kotlin.kapt)
     alias(libs.plugins.dagger.hilt.android)
+
 }
 
 android {
@@ -68,6 +69,9 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.hilt.android)
     implementation(libs.coil.compose)
+    implementation(libs.play.services.maps) // servicios google maps
+    implementation(libs.accompanist.permissions) // permisos
+    implementation(libs.maps.compose) // soporte
     kapt(libs.hilt.android.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
