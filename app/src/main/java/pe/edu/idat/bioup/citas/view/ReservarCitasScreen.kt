@@ -1,4 +1,4 @@
-package pe.edu.idat.bioup.auth.view
+package pe.edu.idat.bioup.citas.view
 
 import android.content.Context
 import android.icu.util.Calendar

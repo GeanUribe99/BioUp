@@ -1,4 +1,4 @@
-package pe.edu.idat.bioup
+package pe.edu.idat.bioup.historiadiaria.view
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

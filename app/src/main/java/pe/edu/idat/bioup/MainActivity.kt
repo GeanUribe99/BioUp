@@ -5,12 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -19,7 +14,6 @@ import pe.edu.idat.bioup.auth.view.loginScreen
 import pe.edu.idat.bioup.auth.viewmodel.LoginViewModel
 import pe.edu.idat.bioup.auth.viewmodel.RegistroViewModel
 import pe.edu.idat.bioup.core.ruteo.Ruta
-import pe.edu.idat.bioup.informationUser.mostrarInformation
 import pe.edu.idat.bioup.ui.theme.BioUpTheme
 import pe.idat.apppatitas_compose.auth.view.registroScreen
 

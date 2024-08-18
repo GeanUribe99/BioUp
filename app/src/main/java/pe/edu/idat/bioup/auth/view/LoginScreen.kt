@@ -151,7 +151,7 @@ fun loginButton(botonHabilitado: Boolean, loginViewModel: LoginViewModel,
     loginResponse?.getContentNotChange()?.let {
             response ->
         if(response.rpta){
-            navController.navigate(Ruta.mainScreen.path)
+            navController.navigate(Ruta.mainScreen.paramMain(response.dni))
         }else{
             scope.launch {
                 state.showSnackbar("Login fallido: ${response.mensaje}",

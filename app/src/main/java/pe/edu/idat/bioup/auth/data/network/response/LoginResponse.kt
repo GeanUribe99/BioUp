@@ -9,5 +9,6 @@ class LoginResponse (
     var email: String,
     var usuario: String,
     var password: String,
+    var dni: String,
     var mensaje: String
 )

@@ -1,4 +1,4 @@
-package pe.edu.idat.bioup.mapa
+package pe.edu.idat.bioup.mapa.view
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme

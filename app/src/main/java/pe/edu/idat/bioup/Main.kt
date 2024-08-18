@@ -52,6 +52,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.launch
+import pe.edu.idat.bioup.ui.theme.AzulApp
+import pe.edu.idat.bioup.ui.theme.CelesteApp
 
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -118,7 +120,7 @@ fun NavigationDrawer() {
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color.Blue,
+                        containerColor = CelesteApp,
                         titleContentColor = Color.White
                     )
                 )
@@ -139,16 +141,16 @@ fun EjemploBottomBar() {
         mutableStateOf(0)
     }
     BottomAppBar(
-        containerColor = Color.Blue,
+        containerColor = CelesteApp,
         contentColor = Color.White,
         tonalElevation = 5.dp
     ) {
         opciones.forEachIndexed { index, opcion ->
             NavigationBarItem(selected = opcionSeleccionada == index,
                 colors = NavigationBarItemDefaults.colors(
-                    selectedIconColor = Color.Black,
-                    indicatorColor = Color.White,
-                    unselectedIconColor = Color.White
+                    selectedIconColor = Color.White,
+                    indicatorColor = AzulApp,
+                    unselectedIconColor = AzulApp
                 ),
                 onClick = { opcionSeleccionada = index },
                 icon = {
