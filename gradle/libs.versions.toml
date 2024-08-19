@@ -16,6 +16,7 @@ retrofit = "2.9.0"
 org-jetbrains-kotlin-android = "1.8.0"
 converterGson = "2.9.0"
 hiltAndroid = "2.48"
+material3Android = "1.2.1"
 
 
 [libraries]
@@ -41,6 +42,7 @@ hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltA
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroid" }
 material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3Android" }
 
 
 
