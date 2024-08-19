@@ -128,8 +128,8 @@ fun ReservarCitasScreen(context: Context) {
         ) {
             Button(
                 onClick = { seleccionarTurno.value = "Mañana"
-                          expandirHora.value = true
-                          },
+                    expandirHora.value = true
+                },
                 enabled = seleccionarTurno.value != "Mañana",
                 modifier = Modifier.weight(1f),
                 colors = if (seleccionarTurno.value == "Mañana") {
@@ -145,8 +145,8 @@ fun ReservarCitasScreen(context: Context) {
             Spacer(modifier = Modifier.size(8.dp))
             Button(
                 onClick = {seleccionarTurno.value = "Tarde"
-                          expandirHora.value = true
-                          },
+                    expandirHora.value = true
+                },
                 enabled = seleccionarTurno.value != "Tarde",
                 modifier = Modifier.weight(1f),
                 colors = if (seleccionarTurno.value == "Tarde"){
