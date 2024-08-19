@@ -69,10 +69,14 @@ dependencies {
     implementation(libs.converter.gson)
     implementation(libs.hilt.android)
     implementation(libs.coil.compose)
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.java.time)
     implementation(libs.play.services.maps) // servicios google maps
     implementation(libs.accompanist.permissions) // permisos
     implementation(libs.maps.compose) // soporte
     kapt(libs.hilt.android.compiler)
+    kapt(libs.androidx.room.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

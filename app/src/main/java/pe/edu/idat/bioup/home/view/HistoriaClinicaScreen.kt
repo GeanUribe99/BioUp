@@ -1,4 +1,4 @@
-package pe.edu.idat.bioup.historiaclinica.view
+package pe.edu.idat.bioup.home.view
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -19,9 +19,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import pe.edu.idat.bioup.home.viewmodel.HomeViewModel
 
 @Composable
-fun HistorialMedico(){
+fun historiaclinicaScreen(homeViewModel: HomeViewModel){
     //Aqui se definen mis listas para iterar
     var alergias = listOf("Alerg1", "Alerg1", "Alerg2", "Alerg")
 

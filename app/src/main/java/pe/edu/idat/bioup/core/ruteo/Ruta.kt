@@ -2,12 +2,12 @@ package pe.edu.idat.bioup.core.ruteo
 
 sealed class Ruta(val path: String) {
     object loginScreen : Ruta("loginScreen")
-    object mainScreen : Ruta("mainScreen/{dni}")
-        fun paramMain(dni: String) = "mainScreen/$dni"
+    object homeScreen : Ruta("homeScreen")
+        fun paramMain(dni: String) = "homeScreen/$dni"
     object registroScreen : Ruta("RegistroScreen")
 
     object mapaScreen : Ruta("MapaScreen")
-    object citasScreen : Ruta("MapaScreen")
+    object citasScreen : Ruta("citasScreen")
     object historiaclinicaScreen : Ruta("historiaclinicaScreen")
     object historiadiariaScreen : Ruta("historiadiariaScreen")
     object personaldatesScreen : Ruta("personaldatesScreen")
